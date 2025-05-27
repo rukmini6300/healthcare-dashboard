@@ -1,0 +1,66 @@
+.calendar-view {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+}
+
+.calendar-header h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.calendar-cell {
+  background: #f3f6fb;
+  border-radius: 8px;
+  padding: 8px;
+  min-height: 60px;
+  font-size: 12px;
+  position: relative;
+}
+
+.calendar-cell.has-appointment {
+  border: 2px solid #5a8dee;
+  background: #e8f1fd;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.times {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.time-badge {
+  background: #5a8dee;
+  color: white;
+  padding: 2px 6px;
+  font-size: 10px;
+  border-radius: 4px;
+}
+
+.calendar-appointments h4 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.appointment-card {
+  background: #fff;
+  padding: 12px;
+  border-left: 4px solid #5a8dee;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}

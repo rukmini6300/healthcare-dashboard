@@ -1,0 +1,66 @@
+.header {
+  height: 64px;
+  background-color: var(--header-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border-color);
+  margin-left: 240px; /* width of sidebar */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-text);
+}
+
+.search-bar input {
+  padding: 8px 16px;
+  border-radius: var(--card-radius);
+  border: 1px solid var(--border-color);
+  background: var(--primary-bg);
+  outline: none;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.add-button {
+  background-color: var(--accent-blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-name {
+  font-size: 14px;
+  color: var(--primary-text);
+}

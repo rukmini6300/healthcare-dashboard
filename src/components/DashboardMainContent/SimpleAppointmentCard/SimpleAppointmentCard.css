@@ -1,0 +1,24 @@
+.simple-card {
+  display: flex;
+  align-items: center;
+  background: #f7f9fc;
+  padding: 12px;
+  border-radius: 8px;
+  gap: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+  color: #5a8dee;
+}
+
+.info h5 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.info p {
+  font-size: 12px;
+  color: #999;
+  margin: 4px 0 0;
+}

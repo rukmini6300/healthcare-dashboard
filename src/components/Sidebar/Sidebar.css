@@ -1,0 +1,42 @@
+.sidebar {
+  width: 240px;
+  background-color: var(--sidebar-bg);
+  padding: 24px 16px;
+  border-right: 1px solid var(--border-color);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+.sidebar-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--secondary-text);
+  margin-bottom: 16px;
+  padding-left: 4px;
+  text-transform: uppercase;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: var(--primary-text);
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: var(--card-radius);
+  cursor: default;
+  transition: background 0.2s ease;
+}
+
+.nav-item:hover {
+  background-color: var(--primary-bg);
+}
